@@ -36,9 +36,10 @@ num_layers = 1 # 1 or 2
 
 # the following are for the graph encoding method
 weight_decay = 0.0000
-sample_size_per_layer = 4
+sample_size_per_layer = 100
 sample_layer_size = 4
-hidden_layer_dim = 100
+
+_layer_dim = 100
 feature_max_len = 1
 feature_encode_type = "uni"
 # graph_encode_method = "max-pooling" # "lstm" or "max-pooling"
