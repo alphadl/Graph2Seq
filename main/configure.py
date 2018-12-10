@@ -12,7 +12,7 @@ test_batch_size = 500
 
 l2_lambda = 0.000001
 learning_rate = 0.001
-epochs = 100
+epochs = 200
 encoder_hidden_dim = 200
 num_layers_decode = 1
 word_size_max = 1
@@ -39,7 +39,7 @@ weight_decay = 0.0000
 sample_size_per_layer = 100
 sample_layer_size = 4
 
-_layer_dim = 100
+hidden_layer_dim = 50
 feature_max_len = 1
 feature_encode_type = "uni"
 # graph_encode_method = "max-pooling" # "lstm" or "max-pooling"
